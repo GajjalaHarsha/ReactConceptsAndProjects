@@ -1,0 +1,12 @@
+p {
+  display: inline;
+}
+.top {
+  top:30px;
+  left:30px;
+  position:relative;
+}
+.expense, .price, .expenseType, .expensePrice, button {
+  margin-left: 30px;
+  margin-right: 30px;
+}
