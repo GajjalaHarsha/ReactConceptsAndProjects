@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="hi"></div>
+</body>
+<script>
+    const div=document.getElementById("hi");
+    const h1=document.createElement("h1");  //Creating Element in JavaScript
+    const span=document.createElement("span");
+    h1.innerText="Hi "; //adding text (child)
+    span.innerText="Harsha"; //Added text as child to span
+    h1.appendChild(span); //Added child Span
+    div.appendChild(h1); //adding it as child which is responsible to render element
+</script>
+</html>
