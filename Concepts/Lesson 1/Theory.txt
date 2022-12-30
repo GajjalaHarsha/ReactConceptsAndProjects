@@ -27,6 +27,8 @@ Difference between Library and Framework?
       - Libraries help developers format code more efficiently and quickly than writing it from scratch as vanilla code.
       - If a library is used, the application calls the code from the library.
 
+      React is a Library because it is developed to speed up the rendering and we are using those in our project
+
 What is CDN? Why do we use it?
    - A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
    - A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos
