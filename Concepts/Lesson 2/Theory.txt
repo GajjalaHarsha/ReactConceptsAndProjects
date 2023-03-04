@@ -1,0 +1,58 @@
+-What is NPM ?
+    NPM is package manager which manages all bundles/packages.
+- What is `Parcel/Webpack`? Why do we need it?
+    Parcel.js is an open-source bundler. It supports many popular languages like Typescript and SASS,
+    and can also handle file types like images and fonts. Parcel comes with a few extra tools built-in: 
+    a development server, diagnostics, minification, and even image compression. If your project requires 
+    a dditional configurations, you have the option to use Parcel’s many plugins.
+ - What is `.parcel-cache` ?
+    cache folder (or .parcel-cache in parcel v2) stores information about your project when parcel builds it,
+    so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key
+    reason why parcel can be so fast in development mode.  
+- What is `npx` ?
+    NPX stands for Node Package eXecute. It is simply an NPM package runner. It allows developers to execute any 
+    Javascript Package available on the NPM registry without even installing it. NPX is installed automatically
+    with NPM version 5.2.0 and above.
+- What is difference between `dependencies` vs `devDependencies`
+    "dependencies": Packages required by your application in production.
+    "devDependencies": Packages that are only needed for local development and testing.
+- What is Tree Shaking?
+    Tree shaking, also known as dead code elimination, is the practice of removing unused code in your production build.
+    It’s important to ship as little code to your end-users as possible. By statically analyzing our source code, we can
+    determine what’s not being used and exclude it from our final bundle.
+- What is Hot Module Replacement?
+    Hot Module Replacement (HMR) improves the development experience by automatically updating modules in the browser at 
+    runtime without needing a whole page refresh. This means that application state can be retained as you change small things. 
+    Parcel's HMR implementation supports both JavaScript and CSS assets.
+- List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words
+    HMR - Hot Module Reloading
+    Bundling
+    MINIFY
+    Cleaning our code
+    Dev(npx parcel index-react.html) and production build(npx parcel build index-react.html)
+    Super Fast Build Algorithm
+    Image Optimization
+- What is `.gitignore`? What should we add and not add into it?
+    gitignore is the file, we can add folders, files which are not to be added to github.
+    We should add files to gitignore which is by default generated files, folders. Ex: Node modules, .parcel-cache, dist folder.
+- What is the difference between `package.json` and `package-lock.json
+    package-lock.json is the file that stores the exact version of all dependencies that you are using in your project
+    package.json file stores the relative version of the dependencies with symbols ^(caret) and tilda(~)
+- Why should I not modify `package-lock.json`?
+    It is a generated file and is not designed to be manually edited. Its purpose is to track the entire tree of dependencies 
+    (including dependencies of dependencies) and the exact version of each dependency. You should commit package-lock. json to
+    your code repository.
+- What is `node_modules` ? Is it a good idea to push that on git?
+    node_modules stores all the dependencies in your project. It is like maven in your java.
+- What is the `dist` folder?
+    Parcel’s default directory for your output is named dist. The --dist-dir public tag defines the output folder for your 
+    production files and is named public to avoid confusion with the dist default directory.
+- What is `browserlists`
+    For browser targets, the browserslist field in package.json can be used to specify which browsers you support. You can 
+    query by usage statistics or by version ranges of specific browsers
+- What is caret(^) and tilda(~)
+    if you see ~1.0.2 it means to install version 1.0.2 or the latest patch version such as 1.0.4 (installs when latests version releases as 1.0.x)
+    If you see ^1.0.2 it means to install version 1.0.2 or the latest minor or patch version such as 1.1.0 (installs when 1.x.x).
+
+
+
