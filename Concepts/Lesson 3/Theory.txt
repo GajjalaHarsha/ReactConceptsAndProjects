@@ -1,0 +1,8 @@
+- What is JSX?
+    JSX is an HTML like syntax but not html inside Javascript.
+- SuperPowers Of JSX ?
+    . JSX is secured.
+- Role of type Attribute in Script tag? What Options can I use?
+    This attribute indicates the type of script represented. The value of this attribute will be one of the following:
+        - module
+        - importmap
