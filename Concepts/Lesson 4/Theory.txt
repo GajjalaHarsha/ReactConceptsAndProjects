@@ -1,0 +1,27 @@
+- Is Jsx Mandatory for React?
+    No.
+- Is ES6 Mandatory for React?
+    No. React can use ES5.
+- How Can I write component in jSX?
+        - component name starts with capital Letter.
+- What is <React.Fragment></React.Fragment> and <></>?
+        - There should be single parent inside component. If your component need multiple parent then you can use <React.Fragment></React.Fragment>
+        - <React.Fragment></React.Fragment> does not add extra code to your html.
+        - <></> is a short hand form of <React.Fragment></React.Fragment> .
+- What is Virtual DOM?
+        - Virtual DOM is a representation of DOM.
+- What is Reconciliation in React?
+        - Reconsiliation is a diff algorithm that React uses to update a particular tree instead of updating the whole DOM onject.
+- What is React Fiber?
+        - React fiber is a new way of implementing the Reconciliation Algorithm.
+- Why we need keys in React? when do we need keys in React?
+        - We need keys to render the react faster for any update of the component.
+        - When we need is, if we are adding same type of child multiple times then we need keys so that react uses the Reconciliation Algorithm to render faster.
+- Can we use Index as keys in React?
+        - It is not recommended to use index as keys in the React.
+        - But, If we dont have other option that is in worst case you can use the indexes.
+- What is config driven UI?
+        - Whatever the changes, styling, validations will be coming from the backend and based on that UI will behave which is a 
+        config driven UI.
+        
+
