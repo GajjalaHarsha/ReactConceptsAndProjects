@@ -1,0 +1,15 @@
+What is the difference between Named Export, Default Export and * as Export?
+    - Named Export: import {Body} from './components/Body.js';
+    - Default Export: import Header from "./components/Header";
+    - * as Export: import *  as Foot from './components/Footer';
+
+What is the importance of config.js file ?
+    - config.js file used to store the constants in the project and use in the entire project.
+
+What is React Hooks ?
+    - React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component.
+
+Why do we need useState hooks ?
+    - Every component in React maintains a state. You can put variables in state. Every time you create local variables use state
+      in React which is called useState hook.
+
