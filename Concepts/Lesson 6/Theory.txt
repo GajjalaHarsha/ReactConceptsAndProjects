@@ -1,0 +1,66 @@
+What is a Microservice?
+A microservice is a software development technique where an application is broken down into smaller, 
+independent components that are loosely coupled and communicate with each other over a network. 
+Each microservice is designed to perform a specific function, and can be developed, deployed, and scaled independently 
+of the other components of the application. This approach allows for greater flexibility, scalability, and agility in 
+software development, as well as easier maintenance and testing of individual components. Microservices are often used
+in modern cloud-based architectures, where applications are built using a combination of different services.
+
+What is  Monolith architecture?
+Monolith architecture is the traditional software development approach in which an application is built as a single,
+self-contained unit. All of the application's functionality, including the user interface, business logic,
+and data storage, is tightly coupled and integrated into a single codebase
+
+What is the difference between Monolith and Microservice?
+1. Size and complexity: More in Monolithic and less in microservice.
+2. Scalability: Monolithic are less scalable compared to microservice.
+3. Development and deployment: Monolithic take more time to development and deployment compared to the microservice.
+4. Fault tolerance: Any part of the monolithic architecture breakdown entire code base will breakdown but in microservice 
+    as individual components can continue to function even if others are down.
+
+Why do we need a useEffect Hook?
+1. If we want to perform any APICall/operation on change of any local state variables these are useful.
+2. It will call first time on rendering the page irrespective of change in local state variable, and from next it calls only on 
+   update of local state variables passed in array.
+3. If you dont mention any local state variable, it will render only once.
+
+What is Optional Chaining?
+The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function 
+called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing
+an error.
+
+What is Shimmer UI?
+A shimmer UI resembles the page's actual UI, so users will understand how quickly the web or mobile app will load even before
+the content has shown up. It gives people an idea of what's about to come and what's happening (it's currently loading) when a
+page full of content/data takes more than 3 - 5 seconds to load.
+
+
+What is the difference between JS expression and JS statement?
+    - Expressions can be simple or complex and can include operators, variables, and function calls
+    - Statements, on the other hand, are larger units of code that perform an action, such as assigning a value to a variable,
+      looping over an array.
+    - expressions can be used within statements, but statements cannot be used within expressions
+
+What is Conditional Rendering, explain with a code example?
+    - As an Example of Conditional rendering, Suppose you are calling the asynchronous api call, it takes some time to retrieve 
+      the data and update in the UI component.
+    - In the mean while, we can call loader page or shimmerUI to render. Once after the API call receives the response 
+      we will render the UI.
+    - Even for simpler Example, we can say if length of array is 0 no elements else display size.
+    return cards.length==0? <h1>No Elements Found...........</h1> : <h1>Size of array is {cards.length}</h1>
+
+What is CORS?
+    - CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented in modern web browsers that
+     restricts web pages from making requests to a different domain than the one that served the web page. 
+     This security feature is designed to prevent malicious websites from making requests to steal data or perform actions
+      on behalf of the user without their knowledge.
+
+
+
+
+
+
+
+
+
+
