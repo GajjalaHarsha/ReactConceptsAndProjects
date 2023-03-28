@@ -8,7 +8,7 @@ const Logo = <a href="/">
 const Header =()=>{
     return (
         <div className="header">
-            {Logo}     {/* React Element */}            
+            {Logo}     {/* React Element */}   
             <ul className="list">
                 <li>Home</li>
                 <li>About Us</li>
