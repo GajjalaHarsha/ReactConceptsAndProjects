@@ -20,8 +20,8 @@ What is the difference between Monolith and Microservice?
 
 Why do we need a useEffect Hook?
 1. If we want to perform any APICall/operation on change of any local state variables these are useful.
-2. It will call first time on rendering the page irrespective of change in local state variable, and from next it calls only on 
-   update of local state variables passed in array.
+2. It will call first time after rendering the page irrespective of change in local state variable, and from next it calls only on 
+   update of local state variables passed in array and after updating the component it calls the useEffect.
 3. If you dont mention any local state variable, it will render only once.
 
 What is Optional Chaining?
