@@ -1,0 +1,24 @@
+{
+  "name": "reactrouter",
+  "version": "1.0.0",
+  "description": "UsingReactRouter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-router"
+  ],
+  "author": "Harsha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0",
+    "react-shimmer": "^3.2.0"
+  }
+}

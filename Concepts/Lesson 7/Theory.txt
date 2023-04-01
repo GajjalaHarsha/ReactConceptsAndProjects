@@ -1,0 +1,17 @@
+What are various ways to add images into our App? Explain with code examples
+1. Copying url from chrome 
+2. Storing file in local and import in file and use as variable Ex: import foodvilla from '../assets/foodvilla.jpg';
+
+
+What would happen if we do console.log(useState())?
+Return function.
+
+How will useEffect behave if we don't add a dependency array ?
+It will execute on after every load of the page, if we dont add dependency array.
+
+What is SPA?
+Single Page Application. It soes not load the page on changing the route(client/server)
+
+What is difference between Client Side Routing and Server Side Routing?
+Client Side Routing: We will modify the url in webpage itself with out sending requestto server.
+Server Side routing: We will call the backendApi to get the data and render in UI.

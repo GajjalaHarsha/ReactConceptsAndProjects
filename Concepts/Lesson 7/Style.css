@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.header > ul {
+    list-style: none;
+    display: flex;
+}
+
+ul > li {   
+    padding: 10px;    
+}
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border: 2px solid black;
+    margin: 5px;
+}
+.card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 280px;
+}
+.card > img {
+    margin: 6px;
+    align-self: center;
+    width:90%;
+}
+
