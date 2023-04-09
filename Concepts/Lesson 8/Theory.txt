@@ -1,0 +1,17 @@
+Why do we write super(props) inside the class?
+    -- If we use default constructor, by default it calls the default constructor of the super class
+        As we are using parameterized constructor we should explicitly call the constructor of parent class.
+
+why cant we have the callback function of useEffect async?
+    Because React's useEffect hook expects a cleanup function returned from it which is called when the component unmounts.
+    If we use async in the method itself, we might return other things, which might not return the cleanup function.
+
+Why Do we use componentDidMount?
+    componentDidMount method is called After initial render of the component and afterwards for every render, it calls the 
+    componentDidUpdate method.
+
+why do we use componentWillUnmount() ?
+    As react is a single page Application(SPA) as it doesnot refresh the chrome and updates the DOM only.
+    If we add any timer in the componentDidMount(), if the component removed from UI, 
+    then timer continues, in order to remove timer, we use componentWillUnmount() where we stop the timer.
+
